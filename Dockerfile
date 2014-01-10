@@ -16,6 +16,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 RUN a2enmod rewrite 
 
 # Install php
+RUN apt-get -qq -y install php5
 RUN apt-get -qq -y install libapache2-mod-php5 php5-mysql php5-gd
 
 # Install XpressEngine

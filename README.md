@@ -12,7 +12,7 @@ which includes Mysql server.
 1. Clone this repository.
 
 ```sh
-$ git clone docker-xpressengine
+$ git clone https://github.com/nacyot/docker-xpressengine.git
 $ cd docker-xpressengine
 ```
 
